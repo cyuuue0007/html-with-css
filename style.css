@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #161D15;
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+h1{
+    color: aliceblue;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+    background-image: url(images/Logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 220px;
+    text-indent: -9999px;
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+header li{
+    display: inline;
+    margin-right: 4vw ;
+}
+header a{
+    color: aliceblue;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+.news{
+    background-color: #f6e08e;
+    color: aliceblue;
+    height: 85vh;
+    background-image: url("images/banner.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+}
